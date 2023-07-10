@@ -1,0 +1,326 @@
+2023.07.10 19:48:35 INFO  Started: Metals version 0.11.12 in workspace 'C:\Users\DILSHAN\Desktop\scala5' for client Visual Studio Code 1.80.0.
+Jul 10, 2023 7:48:35 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+Jul 10, 2023 7:48:35 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Jul 10, 2023 7:48:35 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Jul 10, 2023 7:48:36 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:C:\Users\DILSHAN\Desktop\scala5\.metals\metals (H2 2.1)
+Jul 10, 2023 7:48:36 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory allAppliedMigrations
+INFO: Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+Jul 10, 2023 7:48:36 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.019s)
+Jul 10, 2023 7:48:36 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory create
+INFO: Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+Jul 10, 2023 7:48:36 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": << Empty Schema >>
+Jul 10, 2023 7:48:36 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "1 - Create tables"
+Jul 10, 2023 7:48:36 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "2 - Server discovery"
+Jul 10, 2023 7:48:36 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "3 - Jar symbols"
+Jul 10, 2023 7:48:36 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "4 - Fingerprints"
+Jul 10, 2023 7:48:36 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.052s)
+2023.07.10 19:48:36 INFO  time: initialize in 0.67s
+2023.07.10 19:48:36 WARN  Build server is not auto-connectable.
+2023.07.10 19:48:36 WARN  no build tool detected in workspace 'C:\Users\DILSHAN\Desktop\scala5'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.07.10 19:48:36 WARN  no build target for: C:\Users\DILSHAN\Desktop\scala5\q1.scala
+2023.07.10 19:48:48 INFO  no build target found for C:\Users\DILSHAN\Desktop\scala5\q1.scala. Using presentation compiler with project's scala-library version: 3.2.2
+2023.07.10 19:48:50 INFO  time: code lens generation in 13s
+2023.07.10 19:48:56 WARN  no build target for: C:\Users\DILSHAN\Desktop\scala5\qu1.scala
+2023.07.10 19:49:14 WARN  no build target for: C:\Users\DILSHAN\Desktop\scala5\q1.scala
+2023.07.10 19:50:17 WARN  no build target for: C:\Users\DILSHAN\Desktop\scala5\qu2.scala
+2023.07.10 20:39:18 WARN  no build target for: C:\Users\DILSHAN\Desktop\scala5\q1.scala
+2023.07.10 20:39:53 WARN  no build target for: C:\Users\DILSHAN\Desktop\scala5\q1.scala
+2023.07.10 20:40:15 WARN  no build target for: C:\Users\DILSHAN\Desktop\scala5\q1.scala
+2023.07.10 20:41:30 WARN  no build target for: C:\Users\DILSHAN\Desktop\scala5\q1.scala
+2023.07.10 20:43:07 WARN  no build target for: C:\Users\DILSHAN\Desktop\scala5\q1.scala
+Jul 10, 2023 8:43:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 195
+2023.07.10 20:43:36 WARN  no build target for: C:\Users\DILSHAN\Desktop\scala5\q1.scala
+2023.07.10 20:43:47 WARN  no build target for: C:\Users\DILSHAN\Desktop\scala5\q1.scala
+2023.07.10 20:44:06 WARN  no build target for: C:\Users\DILSHAN\Desktop\scala5\q1.scala
+Jul 10, 2023 8:44:11 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: NoDenotation.owner
+java.lang.AssertionError: NoDenotation.owner
+	at dotty.tools.dotc.core.SymDenotations$NoDenotation$.owner(SymDenotations.scala:2511)
+	at scala.meta.internal.pc.MetalsInteractive$.enclosingSymbolsWithExpressionType(MetalsInteractive.scala:261)
+	at scala.meta.internal.pc.HoverProvider$.hover(HoverProvider.scala:98)
+
+Jul 10, 2023 8:44:11 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: NoDenotation.owner
+java.lang.AssertionError: NoDenotation.owner
+	at dotty.tools.dotc.core.SymDenotations$NoDenotation$.owner(SymDenotations.scala:2511)
+	at scala.meta.internal.pc.MetalsInteractive$.enclosingSymbolsWithExpressionType(MetalsInteractive.scala:261)
+	at scala.meta.internal.pc.HoverProvider$.hover(HoverProvider.scala:98)
+
+Jul 10, 2023 8:44:12 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: NoDenotation.owner
+java.lang.AssertionError: NoDenotation.owner
+	at dotty.tools.dotc.core.SymDenotations$NoDenotation$.owner(SymDenotations.scala:2511)
+	at scala.meta.internal.pc.MetalsInteractive$.enclosingSymbolsWithExpressionType(MetalsInteractive.scala:261)
+	at scala.meta.internal.pc.HoverProvider$.hover(HoverProvider.scala:98)
+
+2023.07.10 20:44:19 WARN  no build target for: C:\Users\DILSHAN\Desktop\scala5\q1.scala
+2023.07.10 20:44:53 WARN  no build target for: C:\Users\DILSHAN\Desktop\scala5\q1.scala
+Jul 10, 2023 8:45:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 333
+2023.07.10 20:45:44 WARN  no build target for: C:\Users\DILSHAN\Desktop\scala5\q1.scala
+2023.07.10 20:45:53 WARN  no build target for: C:\Users\DILSHAN\Desktop\scala5\q1.scala
+2023.07.10 20:46:02 WARN  no build target for: C:\Users\DILSHAN\Desktop\scala5\q1.scala
+2023.07.10 20:46:21 WARN  no build target for: C:\Users\DILSHAN\Desktop\scala5\q1.scala
+2023.07.10 20:46:38 WARN  no build target for: C:\Users\DILSHAN\Desktop\scala5\q2.scala
+2023.07.10 20:52:48 WARN  no build target for: C:\Users\DILSHAN\Desktop\scala5\q1.scala
+2023.07.10 20:53:07 WARN  no build target for: C:\Users\DILSHAN\Desktop\scala5\q1.scala
+2023.07.10 20:54:17 WARN  no build target for: C:\Users\DILSHAN\Desktop\scala5\q3.scala
+2023.07.10 21:00:39 WARN  no build target for: C:\Users\DILSHAN\Desktop\scala5\q3.scala
+2023.07.10 21:01:04 WARN  no build target for: C:\Users\DILSHAN\Desktop\scala5\q3.scala
+2023.07.10 21:01:30 WARN  no build target for: C:\Users\DILSHAN\Desktop\scala5\q3.scala
+2023.07.10 21:01:59 WARN  no build target for: C:\Users\DILSHAN\Desktop\scala5\q4.scala
+2023.07.10 21:05:44 WARN  no build target for: C:\Users\DILSHAN\Desktop\scala5\q5.scala
+Jul 10, 2023 9:05:55 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: Toplevel definition Main is defined in
+  C:/Users/DILSHAN/Desktop/scala5/q1.scala
+and also in
+  C:/Users/DILSHAN/Desktop/scala5/q3.scala
+One of these files should be removed from the classpath.
+dotty.tools.dotc.core.TypeError: Toplevel definition Main is defined in
+  C:/Users/DILSHAN/Desktop/scala5/q1.scala
+and also in
+  C:/Users/DILSHAN/Desktop/scala5/q3.scala
+One of these files should be removed from the classpath.
+	at dotty.tools.dotc.core.SymDenotations$PackageClassDenotation.dropStale$1(SymDenotations.scala:2447)
+	at dotty.tools.dotc.core.SymDenotations$PackageClassDenotation.recur$5(SymDenotations.scala:2411)
+	at dotty.tools.dotc.core.SymDenotations$PackageClassDenotation.computeMembersNamed(SymDenotations.scala:2467)
+	at dotty.tools.dotc.core.SymDenotations$ClassDenotation.membersNamed(SymDenotations.scala:2023)
+	at dotty.tools.dotc.core.SymDenotations$ClassDenotation.findMember(SymDenotations.scala:2074)
+	at dotty.tools.dotc.core.Types$Type.go$1(Types.scala:686)
+	at dotty.tools.dotc.core.Types$Type.goThis$1(Types.scala:811)
+	at dotty.tools.dotc.core.Types$Type.go$1(Types.scala:703)
+	at dotty.tools.dotc.core.Types$Type.findMember(Types.scala:879)
+	at dotty.tools.dotc.core.Types$Type.memberBasedOnFlags(Types.scala:669)
+	at dotty.tools.dotc.core.Types$Type.member(Types.scala:653)
+	at dotty.tools.dotc.core.Types$Type.allMembers$$anonfun$1(Types.scala:1020)
+	at scala.runtime.function.JProcedure2.apply(JProcedure2.java:15)
+	at scala.runtime.function.JProcedure2.apply(JProcedure2.java:10)
+	at dotty.tools.dotc.core.Types$Type.memberDenots$$anonfun$1(Types.scala:925)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+	at scala.collection.immutable.HashSet.foreach(HashSet.scala:937)
+	at dotty.tools.dotc.core.Types$Type.memberDenots(Types.scala:925)
+	at dotty.tools.dotc.core.Types$Type.allMembers(Types.scala:1020)
+	at scala.meta.internal.pc.IndexedContext$.accesibleMembers$1(IndexedContext.scala:149)
+	at scala.meta.internal.pc.IndexedContext$.scala$meta$internal$pc$IndexedContext$$$extractNames(IndexedContext.scala:207)
+	at scala.meta.internal.pc.IndexedContext$LazyWrapper.<init>(IndexedContext.scala:99)
+	at scala.meta.internal.pc.IndexedContext$.apply(IndexedContext.scala:87)
+	at scala.meta.internal.pc.IndexedContext$LazyWrapper.<init>(IndexedContext.scala:98)
+	at scala.meta.internal.pc.IndexedContext$.apply(IndexedContext.scala:87)
+	at scala.meta.internal.pc.IndexedContext$LazyWrapper.<init>(IndexedContext.scala:98)
+	at scala.meta.internal.pc.IndexedContext$.apply(IndexedContext.scala:87)
+	at scala.meta.internal.pc.IndexedContext$LazyWrapper.<init>(IndexedContext.scala:98)
+	at scala.meta.internal.pc.IndexedContext$.apply(IndexedContext.scala:87)
+	at scala.meta.internal.pc.completions.CompletionProvider.completions(CompletionProvider.scala:62)
+
+2023.07.10 21:07:07 WARN  no build target for: C:\Users\DILSHAN\Desktop\scala5\q5.scala
+Jul 10, 2023 9:07:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1359
+2023.07.10 21:07:46 WARN  no build target for: C:\Users\DILSHAN\Desktop\scala5\q5.scala
+2023.07.10 21:08:58 WARN  no build target for: C:\Users\DILSHAN\Desktop\scala5\q6.scala
+2023.07.10 21:10:20 WARN  no build target for: C:\Users\DILSHAN\Desktop\scala5\q6.scala
+Exception in thread "pool-3-thread-1" java.lang.Error: java.lang.InterruptedException
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1155)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	... 2 more
+2023.07.10 21:10:52 WARN  no build target for: C:\Users\DILSHAN\Desktop\scala5\q6.scala
+2023.07.10 21:16:40 WARN  no build target for: C:\Users\DILSHAN\Desktop\scala5\q6.scala
+2023.07.10 21:17:36 WARN  no build target for: C:\Users\DILSHAN\Desktop\scala5\q6.scala
+2023.07.10 21:18:45 WARN  no build target for: C:\Users\DILSHAN\Desktop\scala5\q6.scala
+Jul 10, 2023 9:22:51 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: Toplevel definition Main is defined in
+  C:/Users/DILSHAN/Desktop/scala5/q5.scala
+and also in
+  C:/Users/DILSHAN/Desktop/scala5/q3.scala
+One of these files should be removed from the classpath.
+dotty.tools.dotc.core.TypeError: Toplevel definition Main is defined in
+  C:/Users/DILSHAN/Desktop/scala5/q5.scala
+and also in
+  C:/Users/DILSHAN/Desktop/scala5/q3.scala
+One of these files should be removed from the classpath.
+	at dotty.tools.dotc.core.SymDenotations$PackageClassDenotation.dropStale$1(SymDenotations.scala:2447)
+	at dotty.tools.dotc.core.SymDenotations$PackageClassDenotation.recur$5(SymDenotations.scala:2411)
+	at dotty.tools.dotc.core.SymDenotations$PackageClassDenotation.computeMembersNamed(SymDenotations.scala:2467)
+	at dotty.tools.dotc.core.SymDenotations$ClassDenotation.membersNamed(SymDenotations.scala:2023)
+	at dotty.tools.dotc.core.SymDenotations$ClassDenotation.findMember(SymDenotations.scala:2074)
+	at dotty.tools.dotc.core.Types$Type.go$1(Types.scala:686)
+	at dotty.tools.dotc.core.Types$Type.goThis$1(Types.scala:811)
+	at dotty.tools.dotc.core.Types$Type.go$1(Types.scala:703)
+	at dotty.tools.dotc.core.Types$Type.findMember(Types.scala:879)
+	at dotty.tools.dotc.core.Types$Type.memberBasedOnFlags(Types.scala:669)
+	at dotty.tools.dotc.core.Types$Type.member(Types.scala:653)
+	at dotty.tools.dotc.core.Types$Type.allMembers$$anonfun$1(Types.scala:1020)
+	at scala.runtime.function.JProcedure2.apply(JProcedure2.java:15)
+	at scala.runtime.function.JProcedure2.apply(JProcedure2.java:10)
+	at dotty.tools.dotc.core.Types$Type.memberDenots$$anonfun$1(Types.scala:925)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+	at scala.collection.immutable.HashSet.foreach(HashSet.scala:937)
+	at dotty.tools.dotc.core.Types$Type.memberDenots(Types.scala:925)
+	at dotty.tools.dotc.core.Types$Type.allMembers(Types.scala:1020)
+	at scala.meta.internal.pc.IndexedContext$.accesibleMembers$1(IndexedContext.scala:149)
+	at scala.meta.internal.pc.IndexedContext$.scala$meta$internal$pc$IndexedContext$$$extractNames(IndexedContext.scala:207)
+	at scala.meta.internal.pc.IndexedContext$LazyWrapper.<init>(IndexedContext.scala:99)
+	at scala.meta.internal.pc.IndexedContext$.apply(IndexedContext.scala:87)
+	at scala.meta.internal.pc.IndexedContext$LazyWrapper.<init>(IndexedContext.scala:98)
+	at scala.meta.internal.pc.IndexedContext$.apply(IndexedContext.scala:87)
+	at scala.meta.internal.pc.IndexedContext$LazyWrapper.<init>(IndexedContext.scala:98)
+	at scala.meta.internal.pc.IndexedContext$.apply(IndexedContext.scala:87)
+	at scala.meta.internal.pc.IndexedContext$LazyWrapper.<init>(IndexedContext.scala:98)
+	at scala.meta.internal.pc.IndexedContext$.apply(IndexedContext.scala:87)
+	at scala.meta.internal.pc.IndexedContext$LazyWrapper.<init>(IndexedContext.scala:98)
+	at scala.meta.internal.pc.IndexedContext$.apply(IndexedContext.scala:87)
+	at scala.meta.internal.pc.IndexedContext$LazyWrapper.<init>(IndexedContext.scala:98)
+	at scala.meta.internal.pc.IndexedContext$.apply(IndexedContext.scala:87)
+	at scala.meta.internal.pc.IndexedContext$LazyWrapper.<init>(IndexedContext.scala:98)
+	at scala.meta.internal.pc.IndexedContext$.apply(IndexedContext.scala:87)
+	at scala.meta.internal.pc.completions.CompletionProvider.completions(CompletionProvider.scala:62)
+
+2023.07.10 21:23:05 WARN  no build target for: C:\Users\DILSHAN\Desktop\scala5\q6.scala
+2023.07.10 21:23:34 WARN  no build target for: C:\Users\DILSHAN\Desktop\scala5\q6.scala
+2023.07.10 21:24:18 WARN  no build target for: C:\Users\DILSHAN\Desktop\scala5\q6.scala
+2023.07.10 21:24:20 WARN  no build target for: C:\Users\DILSHAN\Desktop\scala5\q6.scala
+2023.07.10 21:27:52 WARN  no build target for: C:\Users\DILSHAN\Desktop\scala5\q6.scala
+2023.07.10 21:28:19 WARN  no build target for: C:\Users\DILSHAN\Desktop\scala5\q6.scala
+2023.07.10 21:29:38 WARN  no build target for: C:\Users\DILSHAN\Desktop\scala5\q6.scala
+2023.07.10 21:29:45 WARN  no build target for: C:\Users\DILSHAN\Desktop\scala5\q6.scala
+2023.07.10 21:29:45 WARN  no build target for: C:\Users\DILSHAN\Desktop\scala5\q6.scala
+2023.07.10 21:29:53 WARN  no build target for: C:\Users\DILSHAN\Desktop\scala5\q6.scala
+2023.07.10 21:29:57 WARN  no build target for: C:\Users\DILSHAN\Desktop\scala5\q6.scala
+2023.07.10 21:30:20 WARN  no build target for: C:\Users\DILSHAN\Desktop\scala5\q6.scala
+2023.07.10 21:30:32 WARN  no build target for: C:\Users\DILSHAN\Desktop\scala5\q6.scala
+2023.07.10 21:42:31 WARN  no build target for: C:\Users\DILSHAN\Desktop\scala5\q4.scala
+2023.07.10 21:42:45 WARN  no build target for: C:\Users\DILSHAN\Desktop\scala5\q4.scala
+Jul 10, 2023 9:42:49 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: NoDenotation.owner
+java.lang.AssertionError: NoDenotation.owner
+	at dotty.tools.dotc.core.SymDenotations$NoDenotation$.owner(SymDenotations.scala:2511)
+	at scala.meta.internal.pc.MetalsInteractive$.enclosingSymbolsWithExpressionType(MetalsInteractive.scala:261)
+	at scala.meta.internal.pc.HoverProvider$.hover(HoverProvider.scala:98)
+
+2023.07.10 21:44:47 WARN  no build target for: C:\Users\DILSHAN\Desktop\scala5\q4.scala
+2023.07.10 21:46:24 WARN  Using indexes to guess the definition of prime
+2023.07.10 21:46:37 WARN  no build target for: C:\Users\DILSHAN\Desktop\scala5\q4.scala
+2023.07.10 21:47:04 WARN  no build target for: C:\Users\DILSHAN\Desktop\scala5\q4.scala
+2023.07.10 21:47:16 WARN  no build target for: C:\Users\DILSHAN\Desktop\scala5\q4.scala
+2023.07.10 21:47:31 WARN  no build target for: C:\Users\DILSHAN\Desktop\scala5\q4.scala
+2023.07.10 21:47:52 WARN  no build target for: C:\Users\DILSHAN\Desktop\scala5\q5.scala
+Jul 10, 2023 9:49:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.ArrayIndexOutOfBoundsException: 91
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException: 91
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:661)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1990)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 91
+	at scala.meta.tokens.Tokens.apply(Tokens.scala:34)
+	at scala.meta.internal.parsers.ScannerTokens.nextToken(ScannerTokens.scala:382)
+	at scala.meta.internal.parsers.ScannerTokens.nextToken(ScannerTokens.scala:372)
+	at scala.meta.internal.parsers.LazyTokenIterator.getNextTokenRef(LazyTokenIterator.scala:28)
+	at scala.meta.internal.parsers.LazyTokenIterator.peekIndex(LazyTokenIterator.scala:156)
+	at scala.meta.internal.parsers.ScalametaParser.peekIndex(ScalametaParser.scala:180)
+	at scala.meta.internal.parsers.ScalametaParser.iter$2(ScalametaParser.scala:2427)
+	at scala.meta.internal.parsers.ScalametaParser.caseClausesIfAny(ScalametaParser.scala:2432)
+	at scala.meta.internal.parsers.ScalametaParser.caseClauses(ScalametaParser.scala:2409)
+	at scala.meta.internal.parsers.ScalametaParser.matchClause(ScalametaParser.scala:1452)
+	at scala.meta.internal.parsers.ScalametaParser.loop$6(ScalametaParser.scala:2053)
+	at scala.meta.internal.parsers.ScalametaParser.postfixExpr(ScalametaParser.scala:2075)
+	at scala.meta.internal.parsers.ScalametaParser.postfixExpr(ScalametaParser.scala:1960)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$expr$2(ScalametaParser.scala:1603)
+	at scala.meta.internal.parsers.ScalametaParser.atPosOpt(ScalametaParser.scala:323)
+	at scala.meta.internal.parsers.ScalametaParser.autoPosOpt(ScalametaParser.scala:367)
+	at scala.meta.internal.parsers.ScalametaParser.expr(ScalametaParser.scala:1508)
+	at scala.meta.internal.parsers.ScalametaParser.expr(ScalametaParser.scala:1397)
+	at scala.meta.internal.parsers.ScalametaParser.exprMaybeIndented(ScalametaParser.scala:1421)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$funDefRest$1(ScalametaParser.scala:3655)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:369)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:374)
+	at scala.meta.internal.parsers.ScalametaParser.funDefRest(ScalametaParser.scala:3617)
+	at scala.meta.internal.parsers.ScalametaParser.funDefOrDclOrExtensionOrSecondaryCtor(ScalametaParser.scala:3561)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3391)
+	at scala.meta.internal.parsers.ScalametaParser.nonLocalDefOrDcl(ScalametaParser.scala:3370)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$2.applyOrElse(ScalametaParser.scala:4322)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$2.applyOrElse(ScalametaParser.scala:4306)
+	at scala.PartialFunction.$anonfun$runWith$1(PartialFunction.scala:231)
+	at scala.PartialFunction.$anonfun$runWith$1$adapted(PartialFunction.scala:230)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4299)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$13(ScalametaParser.scala:4524)
+	at scala.Option.getOrElse(Option.scala:201)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4524)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:320)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:366)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4479)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4472)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:320)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:366)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4472)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4477)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:127)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:124)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:51)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:46)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:124)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.parsing.Trees.$anonfun$parse$2(Trees.scala:137)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.parsing.Trees.parse(Trees.scala:130)
+	at scala.meta.internal.parsing.Trees.didChange(Trees.scala:100)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$parseTreesAndPublishDiags$2(MetalsLspService.scala:859)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+Jul 10, 2023 9:49:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.ArrayIndexOutOfBoundsException
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:661)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1990)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ArrayIndexOutOfBoundsException
+
+2023.07.10 21:49:32 WARN  no build target for: C:\Users\DILSHAN\Desktop\scala5\q3.scala
+2023.07.10 21:50:38 WARN  no build target for: C:\Users\DILSHAN\Desktop\scala5\q1_and_q2.scala
+2023.07.10 21:50:42 WARN  no build target for: C:\Users\DILSHAN\Desktop\scala5\qu1.scala
+2023.07.10 21:50:50 WARN  no build target for: C:\Users\DILSHAN\Desktop\scala5\qu2.scala
+2023.07.10 21:50:52 WARN  no build target for: C:\Users\DILSHAN\Desktop\scala5\qu3.scala
+2023.07.10 21:51:45 INFO  Shutting down server
+2023.07.10 21:51:45 INFO  shutting down Metals
+2023.07.10 21:51:45 INFO  Exiting server
